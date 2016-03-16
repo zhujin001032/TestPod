@@ -1,0 +1,25 @@
+{
+  "name": "TestPod",
+  "version": "0.1.0",
+  "summary": "A short description of TestPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TestPod",
+  "license": "MIT",
+  "authors": {
+    "zhujin001032": "zhujin001xb@163.con"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TestPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TestPod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
